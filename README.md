@@ -98,8 +98,7 @@ he epoch 50 local feature test result on rparis image dataset：
 
 
 1. SOTA of R50-DELG is 78.3 mAP@M in the paper, we outperform it
-2. All training set version is GLDv2-clean (81313, 1580470)
-3. Traing size, global and local feature scales adopted are same with the paper
+2. Traing size, global and local feature scales adopted are same with the paper
 
 ### Demo
 
