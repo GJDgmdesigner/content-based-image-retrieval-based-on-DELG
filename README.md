@@ -78,13 +78,7 @@ python example_evaluate.py main
 
 - on roxford5k
 
-|  Backbone | Train Size | Method | mAP E | mAP M | mAP H |
-|--------------|:-------:|:------:|:-------:|:------------:|:-------------:|
-|  ResNet50  |    224  |  Global Ranking                | 77.73 | **66.06** | 38.37 |
-|  ResNet50  |    224  |  Global                        | 81.03 | **68.31** | 39.98 |
-|  ResNet50  |    224  |  Global + Spatial Verification | 84.81 | **71.97** | 46.63 |
-|  ResNet50  |    512  |  Global                        | 90.55 | **78.51** | 56.90 |
-|  ResNet50  |    512  |  Global + Spatial Verification | 90.86 | **80.08** | 58.42 |
+(None data)
 
 - on rparis6k
 
@@ -107,3 +101,6 @@ he epoch 50 local feature test result on rparis image dataset：
 2. All training set version is GLDv2-clean (81313, 1580470)
 3. Traing size, global and local feature scales adopted are same with the paper
 
+### Demo
+
+python Demo.py
