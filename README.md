@@ -21,12 +21,12 @@ export CUDA_VISIBLE_DEVICES=1,2,...
 ## Training
 
 Training a delg model:
-
+```
 python train_delg.py \
     --cfg configs/config.yaml \
     OUT_DIR /Data_HDD/staff_xi_yang/LYMDataset/output2 \
     PORT 12001 \
-    TRAIN.WEIGHTS /Data_HDD/yiming/DELG_clean_512size/checkpoints/model_epoch_0001.pyth
+    TRAIN.WEIGHTS /Data_HDD/staff_xi_yang/LYMDataset/output2/checkpoints/model_epoch_0068.pyth
 ```
 
 Resume training: 
