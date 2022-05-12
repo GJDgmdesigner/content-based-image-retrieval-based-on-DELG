@@ -107,5 +107,3 @@ he epoch 50 local feature test result on rparis image dataset：
 2. All training set version is GLDv2-clean (81313, 1580470)
 3. Traing size, global and local feature scales adopted are same with the paper
 
-
-Test on pytorch 1.7.1 with py37
